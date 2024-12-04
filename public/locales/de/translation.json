@@ -1,0 +1,46 @@
+{
+  "header": {
+    "logoAlt": "Logo",
+    "textLogoAlt": "Logotext",
+    "marketOpen": "Freier Markt: {{hours}}",
+    "marketClosed": "Geschlossener Markt",
+    "viewIndices": "Siehe Indizes",
+    "viewCompanies": "Siehe Unternehmen",
+    "empresas": "Unternehmen",
+    "participacionEmp": "Geschäftsbeteiligung",
+    "indices": "Indizes"
+  },
+  
+  "chart": {
+    "title": "Geschäftszitate", 
+    "title2": "Geschäftsbeteiligung",
+    "title3": "Indexzitate", 
+    "yaxisTitle": "Indexwert", 
+    "close": "Schließen", 
+    "type": {
+      "DIA": "Tag",
+      "MES": "Monat"
+    },
+    "tooltip": {
+      "value": "{{value}} Einsatz"
+    },
+    "legend": {
+      "position": {
+        "right": "Legende rechts",
+        "bottom": "Legende unten"
+      }
+    },
+    "button": {
+      "1d": "1 Tag",
+      "3d": "3 Tage",
+      "1w": "1 Woche",
+      "1m": "1 Monat",
+      "all": "Alle"
+    }
+  },
+
+  "loading": "Aufladen...",
+  "errorLoading": "Fehler beim Laden der Daten",
+  "viewChart": "Siehe Grafik",
+  "noData": "Keine Daten verfügbar"
+}

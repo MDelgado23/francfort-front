@@ -1,0 +1,102 @@
+:root {
+  --primary-bg: #293155; /* Fondo principal */
+  --primary-text: blue; /* Texto principal */
+  --secondary-text: blue; /* Texto secundario */
+  --accent-color: #4cafef; /* Azul claro para acentos */
+  --button-bg: #4cafef; /* Fondo de botones */
+  --button-hover-bg: #367dc2; /* Fondo de botones al pasar el mouse */
+  --chart-bg: #293155; /* Fondo del gráfico */
+  --chart-text: #333333; /* Texto del gráfico */
+}
+
+.chartContainer {
+  background-color: #293155;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  max-width: 700px;
+  margin: auto;
+}
+
+.rangeButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.rangeButton {
+  background-color: #293155;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.rangeButton:hover {
+  background-color: #3a3a3a;
+}
+
+.rangeButtonActive {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.loadingText,
+.errorText {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.closeButton {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: #c9302c;
+}
+
+
+.currencySelector {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.currencyButton {
+  background-color: red; 
+  
+  color: #ffffff;
+  padding: 0px 10px;
+  height: 45.59px;
+ 
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.currencyButton:hover {
+  background-color: green;
+  transform: scale(1.08); 
+}
+
+.currencyButtonActive {
+  background-color: green; 
+  color: #ffffff;
+  border: 1px solid #ffffff; 
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 8px rgba(54, 125, 194, 0.8);
+}

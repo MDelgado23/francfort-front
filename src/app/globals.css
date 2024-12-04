@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -39,4 +45,30 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #293155; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco para contraste */
+  font-family: 'Arial', sans-serif; /* Asegura una fuente legible */
+  min-height: 100vh;
+}
+
+html, body, #__next {
+  height: 100%; /* Asegura que el fondo cubra toda la página */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #007bff; /* Azul claro para enlaces */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

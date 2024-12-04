@@ -1,0 +1,88 @@
+:root {
+  --primary-bg: #293155; /* Fondo principal */
+  --primary-text: #ffffff; /* Texto principal */
+  --secondary-text: #cccccc; /* Texto secundario */
+  --accent-color: #4cafef; /* Azul claro para acentos */
+  --button-bg: #4cafef; /* Fondo de botones */
+  --button-hover-bg: #367dc2; /* Fondo de botones al pasar el mouse */
+  --chart-bg: transparent; /* Fondo del gráfico */
+  --chart-text: #333333; /* Texto del gráfico */
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10px 0;
+  color: var(--primary-text);
+}
+
+p {
+  color: var(--secondary-text);
+}
+
+.indices-container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  margin: 20px 0;
+}
+
+.rangeButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rangeButton {
+  background-color: var(--button-bg);
+  color: var(--primary-text);
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.rangeButton:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.rangeButtonActive {
+  background-color: var(--button-hover-bg);
+  font-weight: bold;
+}
+
+.chart-container {
+  background-color: #1e1e2f;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}

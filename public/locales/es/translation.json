@@ -1,0 +1,46 @@
+{
+  "header": {
+    "logoAlt": "Logo",
+    "textLogoAlt": "Texto del logo de CasaLindner",
+    "marketOpen": "Mercado Abierto: {{hours}}",
+    "marketClosed": "Mercado Cerrado",
+    "viewIndices": "Ver Índices",
+    "viewCompanies": "Ver Empresas",
+    "empresas": "Empresas",
+    "participacionEmp": "Participacion de Empresas",
+    "indices": "Indices"
+  },
+  
+  "chart": {
+    "title": "Cotizaciones de Empresas", 
+    "title2": "Participación de Empresas",
+    "title3": "Cotizaciones de Indices", 
+    "yaxisTitle": "Valor del Índice",
+    "close": "Cerrar", 
+    "type": {
+      "DIA": "Día",
+      "MES": "Mes"
+    },
+    "tooltip": {
+      "value": "{{value}} participación"
+    },
+    "legend": {
+      "position": {
+        "right": "Leyenda a la derecha",
+        "bottom": "Leyenda abajo"
+      }
+    },
+    "button": {
+      "1d": "1 Día",
+      "3d": "3 Días",
+      "1w": "1 Semana",
+      "1m": "1 Mes",
+      "all": "Todo"
+    }
+  },
+
+  "loading": "Cargando...",
+  "errorLoading": "Error al cargar los datos",
+  "viewChart": "Ver gráfico",
+  "noData": "No hay datos disponibles"
+}

@@ -1,0 +1,115 @@
+.chart-container {
+  
+  
+  padding: 20px;
+  color: white;
+  
+  font-family: Arial, sans-serif;
+}
+
+
+.chart-container > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+
+.rangeButton {
+  background-color: #4cafef; 
+  border: 1px solid #ffffff; 
+  color: #ffffff;
+  padding: 10px 16px;
+  margin: 0 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.rangeButton:hover {
+  background-color: #367dc2; 
+  color: #ffffff;
+  transform: scale(1.08); 
+}
+
+.rangeButtonActive {
+  background-color: #367dc2; 
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 8px rgba(54, 125, 194, 0.8); 
+}
+
+
+.apexcharts-canvas {
+  
+  border-radius: 12px;
+  padding: 10px;
+}
+
+
+.apexcharts-tooltip {
+  background: #ffffff !important; 
+  color: #293155 !important; 
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  font-size: 12px;
+}
+
+
+.apexcharts-legend {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.apexcharts-legend-text {
+  color: #ffffff !important;
+}
+
+
+.currencySelector {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.currencyButton {
+  background-color: red; 
+  
+  color: #ffffff;
+  padding: 0px 10px;
+  height: 45.59px;
+ 
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.currencyButton:hover {
+  background-color: green; 
+  transform: scale(1.08); 
+}
+
+.currencyButtonActive {
+  background-color: green; 
+  color: #ffffff;
+  border: 1px solid #ffffff; 
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 0 8px rgba(54, 125, 194, 0.8); 
+}
+
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 15px;
+  }
+
+  .rangeButton {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}

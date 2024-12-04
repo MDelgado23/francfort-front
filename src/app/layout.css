@@ -1,0 +1,46 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Fondo claro */
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a8a; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .language-switcher {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .flag-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s;
+  }
+  
+  .flag-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
